@@ -1,0 +1,23 @@
+modLoader = "javafml"
+loaderVersion = "[40,)"
+license = "MIT"
+[[mods]]
+modId = "mcmap"
+version = "${file.jarVersion}"
+displayName = "MC Map"
+authors = "vladislemon"
+description = '''
+Simple Minecraft map mod
+'''
+[[dependencies.mcmap]]
+modId = "forge"
+mandatory = true
+versionRange = "[40,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.mcmap]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.18.2,1.19)"
+ordering = "NONE"
+side = "BOTH"

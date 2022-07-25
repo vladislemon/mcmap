@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ru.vladislemon.mc.mcmap.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "mcmap.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "client.ClientPacketListenerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
